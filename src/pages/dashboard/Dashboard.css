@@ -1,0 +1,145 @@
+.dashboard-filters {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 140px;
+}
+
+.filter-group .form-control {
+  min-width: 140px;
+}
+
+.filter-meta {
+  font-size: 0.8125rem;
+  color: var(--color-gray-500);
+  padding-bottom: 8px;
+  margin-left: auto;
+}
+
+.filter-meta strong {
+  color: var(--color-primary-700);
+}
+
+.stat-skeleton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  height: 96px;
+}
+
+/* Meeting preview */
+.meeting-card-preview {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.meeting-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--color-primary-50);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary-700);
+  flex-shrink: 0;
+}
+
+.meeting-title {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: var(--color-gray-900);
+  margin-bottom: 4px;
+}
+
+.meeting-meta {
+  font-size: 0.75rem;
+  color: var(--color-gray-400);
+  margin-bottom: 6px;
+}
+
+.analytics-toggle {
+  display: flex;
+  background: var(--color-gray-100);
+  padding: 4px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.analytics-toggle .toggle-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-gray-600);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all var(--transition-fast);
+}
+
+.analytics-toggle .toggle-btn.active {
+  background: #fff;
+  color: var(--color-primary-700);
+  box-shadow: var(--shadow-sm);
+}
+
+.emp-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 240px;
+  z-index: 100;
+  padding: 8px 0;
+  box-shadow: var(--shadow-xl);
+}
+
+.emp-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.emp-item {
+  padding: 10px 16px;
+  font-size: 0.875rem;
+  color: var(--color-gray-700);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.emp-item:hover {
+  background: var(--color-gray-50);
+}
+
+.emp-item.active {
+  background: var(--color-primary-50);
+  color: var(--color-primary-700);
+  font-weight: 700;
+}
+
+
+.meeting-desc {
+  font-size: 0.8125rem;
+  color: var(--color-gray-500);
+  line-height: 1.5;
+  max-width: 700px;
+}
+
+.meeting-card-preview .btn {
+  margin-left: auto;
+  flex-shrink: 0;
+}

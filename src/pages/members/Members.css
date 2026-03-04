@@ -1,0 +1,45 @@
+.emp-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary-700);
+  background: var(--color-primary-50);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.member-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.member-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--color-primary-600), var(--color-teal-500));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.member-name {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--color-gray-900);
+}
+
+.member-pos {
+  font-size: 0.72rem;
+  color: var(--color-gray-400);
+}
+
+.action-btns {
+  display: flex;
+  gap: 4px;
+}

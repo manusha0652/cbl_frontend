@@ -1,0 +1,33 @@
+.main-content {
+  margin-left: var(--sidebar-width);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: margin-left var(--transition-normal);
+}
+
+.main-content--collapsed {
+  margin-left: var(--sidebar-collapsed);
+}
+
+.app-footer {
+  padding: 18px 24px;
+  background: #fff;
+  border-top: 1px solid var(--color-gray-200);
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-gray-400);
+  line-height: 1.6;
+}
+
+.app-footer-sub span {
+  color: var(--color-teal-600);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
