@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Bell, Search, ChevronDown, LogOut, User, Settings } from 'lucide-react';
 import { useAppContext } from '../../context/AppContext';
 import './Navbar.css';

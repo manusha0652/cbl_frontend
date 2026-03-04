@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Search, Plus, Filter, Heart } from 'lucide-react';
 import { donationService } from '../../services/donationService';
 import { Modal } from '../../components/modals/Modal';

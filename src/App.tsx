@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Toaster } from 'react-hot-toast';
 import { AppProvider } from './context/AppContext';
 import { AppRouter } from './routes/AppRouter';

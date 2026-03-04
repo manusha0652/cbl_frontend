@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Heart, CheckCircle } from 'lucide-react';
 import { welfareService } from '../../services/welfareService';
 import type { WelfareBenefit } from '../../types';
